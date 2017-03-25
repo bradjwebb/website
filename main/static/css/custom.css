@@ -1,0 +1,225 @@
+/* Import Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i');
+
+
+/*Generic Font Settings*/
+h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 4em;
+    color: #D7D3D3;
+}
+
+h2 {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 2.5em;
+    color: #D7D3D3;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 2.2em;
+    font-weight: 100;
+    color: #4A4A4A  ;
+}
+
+/*Generic Settings*/
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-family: charter, sans-serif;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+li {
+    font-family: charter, sans-serif;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+td {
+    font-family: charter, sans-serif;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+hr {
+    width: 35vw;
+}
+
+time {
+    font-family: charter, sans-serif;
+    font-weight: bold;
+    color: #4A4A4A;
+    align-self: center;
+}
+
+/*Site Classes*/
+
+/*Section Introduction*/
+section#introduction {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: #4A4A4A;
+}
+
+h1#thats-me {
+    text-align: center;
+    margin: 0;
+}
+
+p#about {
+    text-align: center;
+    font-family: Osaka, sans-serif;
+    font-size: 1em;
+    color: #D7D3D3;
+}
+
+p#selfie {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul#contact {
+    text-align: center;
+}
+
+/*Section Work*/
+section#recent-work {
+    background-color: #F2F2F2;
+    width: 100vw;
+}
+
+section#past-work {
+    background-color: #D8D8D8;
+    display: flex;
+}
+
+.employer {
+    height: 90vh;
+}
+
+.employer-old {
+    width: 50vw;
+}
+
+.navbar {
+    display: flex;
+    height: 3.5em;
+    background-color: black;
+}
+
+.org {
+    text-align: left;
+    text-indent: .75em;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.50);
+    color: #FFFFFF;
+    align-self: center;
+}
+
+.logo {
+    padding-left: 1em;
+    height: 5em;
+}
+
+.inner {
+    align-self: center;
+    height: 85%;
+}
+
+.outer {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    height: 15em;
+}
+
+.gallery-2 {
+    height: 8em;
+}
+
+.inner p {
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+#Facebook .navbar {
+    background-color: #4267B2;
+}
+
+#Tuck-Econ .navbar {
+    background-color: #006633;
+}
+
+#SPAWAR .navbar {
+    background-color: #07274C;
+}
+
+#AS .navbar {
+    background-color: #000000;
+}
+
+/*Section Leadership*/
+section#leadership {
+    width: 100vw;
+    height: 40vh;
+    background-color: lightgrey;
+}
+
+.mini-logo {
+    height: 5em;
+}
+
+table {
+    width: 90%;
+    align-self: center;
+}
+
+td.logo-column {
+    width: 20%;
+    text-align: center;
+}
+
+td.org-column {
+    width: 30%;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+
+/*Section School*/
+section#school {
+    width: 100vw;
+    height: 40vh;
+    background-color: lightgrey;
+}
+
+/*li#sdsu {
+    list-style-image: url('Images/sdsulogo.png');
+}
+*/

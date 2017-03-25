@@ -1,0 +1,6 @@
+*.pyc
+*~
+__pycache__
+webenv
+.DS_Store
+

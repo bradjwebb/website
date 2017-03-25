@@ -1,0 +1,171 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bradley Webb</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}">
+    <!-- v1; 2017.03.04 -->
+</head>
+<body>
+    <section id="introduction">
+        <div class="inner">
+            <p id="selfie">
+                <img class="gallery" src="{% static 'images/Selfie.png' %}">
+            </p>
+            <h1 id="thats-me">Bradley Webb</h1>
+            <p id="about">
+                I love solving hard, ambiguous problems and leaping into new opportunities for impact.
+                <br>
+                Right now I'm doing that for Facebook
+            </p>
+            <ul id="contact">
+                <a class="phone" href="call:661-619-4477">
+                    <img src="{% static 'images/glyph-phone.png' %}">
+                </a>
+                <a class="email" href="mailto:bradley@bradleywebb.io">
+                    <img src="{% static 'images/glyph-envelope.png' %}">
+                </a>
+                <a href="">
+                    <img src=""> <!-- More Section, for projects i'm working on -->
+                </a>
+            </ul>
+        </div>
+    </section>
+    <section id="recent-work">
+        <div class="employer" id="Facebook">
+            <div class="navbar">
+                <img class="logo" src="{% static 'images/facebook_logo.png' %}">
+                <h2 class="org">Facebook</h2>
+            </div>
+            <div class="outer">
+                <div class="inner">
+                    <p>
+                        <img class="gallery" src="">
+                    </p>
+                    <hr>
+                    <p><time>2016 - present</time></p>
+                    <p>
+                        I'm a project manager at Facebook; I solve ambiguous problems and lead nascent initiatives. Some of the cool things I work on: managing a team [that does what?], providing leadership for our analytics &amp; tooling group, and leading an XFN to solve some of FBs hardest product-quality challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="employer" id="Tuck-Econ">
+            <div class="navbar">
+                <img class="logo" src="{% static 'images/tuck_logo.png' %}">
+                <h2 class="org">Dartmouth</h2>
+            </div>
+            <div class="outer">
+                <div class="inner">
+                    <p>
+                        <img class="gallery" src="{% static 'images/Tuck Econ.png' %}">
+                    </p>
+                    <hr>
+                    <p><time>2014-2016</time></p>
+                    <p>
+                        I was the product manager for the e-learning site, <span><a href="www.tuckecon.com">TuckEcon.com</a></span>. While at Tuck a few students banded together to fill a gap in our econ curriculum by developing a economic simulator for global trade and monetary and fiscal policy. I developed the code and maths for the simulation and worked with designers and developers to launch the first version of the site in late 2015.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="past-work">
+        <div class="employer-old" id="SPAWAR">
+            <div class="navbar">
+                <img class="logo" src="{% static 'images/navy_logo.png' %}">
+                <h2 class="org">US Navy</h2>
+            </div>
+            <div class="outer">
+                <div class="inner">
+                    <p>
+                        <img class="gallery-2" src="">
+                    </p>
+                    <hr>
+                    <p><time>2010-2014</time></p>
+                    <p>
+                        I worked in finance for the US Navy on a variety of projects, here are a few examples: I was the finance manager for a satellite project designed to map star locations, I oversaw our tech investments in data centers, software, and military communications and intelligence equipment, and helped our organization reclaim >$2bn of revenues lost to sequestration.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="employer-old" id="AS">
+            <div class="navbar">
+                <img class="logo" src="{% static 'images/as-logo.png' %}">
+                <h2 class="org">Associated Students</h2>
+            </div>
+            <div class="outer">
+                <div class="inner">
+                    <p>
+                        <img class="gallery-2" src="">
+                    </p>
+                    <hr>
+                    <p><time>2007-2010</time></p>
+                    <p>
+                        In my first full-time job I had a variety of responsibilities but the most important was managing a team of 25. I learned a ton about growing a team, building a culture, and providing opportunities for the team to learn and grow.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="leadership">
+        <div class="navbar">
+            <h2 class="org">Leadership</h2>
+        </div>
+        <div>
+            <p>
+                Here are some of the non-profit organizations I've worked with.
+            </p>
+        </div>
+        <table>
+            <tr>
+                <td class="logo-column">
+                    <img class="mini-logo" src="{% static 'images/gbuvlogo.png' %}">
+                </td>
+                <td class="org-column">
+                    <a href="www.gbuv.org">Good Beginnings</a>
+                </td>
+                <td class="logo-column">
+                    <img class="mini-logo" src="{% static 'images/hoby-logo.png' %}">
+                </td>
+                <td class="org-column">
+                    <a href="www.hoby.org">HOBY</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="logo-column">
+                    <img class="mini-logo" src="{% static 'images/bbbslogo-rev.png' %}">
+                </td>
+                <td class="org-column">
+                    <a href="www.BBBS.org">Big Brother</a>
+                </td>
+                <td class="logo-column">
+                    <img class="mini-logo" src="{% static 'images/gcw_logo_final.png' %}">
+                </td>
+                <td class="org-column">
+                    <a href="www.givecleanwater.org">Give Clean Water</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section id="school">
+        <div class="navbar">
+            <h2 class="org">Education</h2>
+        </div>
+        <div>
+            <p>
+                I've gone to some great schools. I love learning
+            </p>
+            <ul>
+                <li>
+                    <img class="mini-logo" src="{% static 'images/dartmouthlogo.png' %}">
+                    Tuck School of Business at Dartmouth
+                </li>
+                <li id="sdsu">
+                    <img class="mini-logo" src="{% static 'images/sdsu-logo.png' %}">
+                    San Diego State University
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
